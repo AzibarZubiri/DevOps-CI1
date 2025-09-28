@@ -17,5 +17,7 @@ public class Main {
         System.out.println("Resta: " + calc.subtract(a, b));
 
         scanner.close();
+
+        System.out.println("TEST");
     }
 }
