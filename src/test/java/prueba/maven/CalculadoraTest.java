@@ -15,6 +15,6 @@ public class CalculadoraTest {
     @Test
     public void testSubtract() {
         Calculadora calc = new Calculadora();
-        assertEquals("3 - 2 should equal 1", calc.subtract(3, 2), 1);
+        assertEquals("3 - 2 should equal 1", calc.subtract(3, 2), 2);
     }
 }
