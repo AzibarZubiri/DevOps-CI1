@@ -13,12 +13,18 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+    
+    - name: VM
+      run: echo "Repositorio clonado en la maquina virtual donde corre el workflow"
 
     - name: Set up JDK 17
       uses: actions/setup-java@v3
       with:
         distribution: temurin
         java-version: 17
+
+    - name: MVN
+      run: echo "JDK 17 configurado para maven en la maquina virtual"
 
     - name: Build with Maven
       run: mvn clean install
