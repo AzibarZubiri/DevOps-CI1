@@ -17,4 +17,10 @@ public class CalculadoraTest {
         Calculadora calc = new Calculadora();
         assertEquals("3 - 2 should equal 1", calc.subtract(3, 2), 1);
     }
+
+    @Test
+    public void testMultiply(){
+        Calculadora calc = new Calculadora();
+        assertEquals("3 * 2 should equal 6", calc.multiply(3, 2), 6);
+    }
 }
