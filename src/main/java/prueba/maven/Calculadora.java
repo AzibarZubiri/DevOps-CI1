@@ -7,7 +7,7 @@ public class Calculadora {
     }
 
     public int subtract(int a, int b) {
-        return a / b;
+        return a * b;
     }   
     
 }
