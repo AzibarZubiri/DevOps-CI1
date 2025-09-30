@@ -1,0 +1,14 @@
+name: Github Event
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  Project-Name:
+    name: project_name
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{ github.event.repository.name }}"
