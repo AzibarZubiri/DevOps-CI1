@@ -1,0 +1,15 @@
+name: CI Prueba
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  list-elements:
+    name: List Elements
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls-l
+    
