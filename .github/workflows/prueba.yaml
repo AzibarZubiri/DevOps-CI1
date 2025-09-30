@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-      - uses: action/checkout@v3
+        uses: action/checkout@v3
       - run: ls-l
     
