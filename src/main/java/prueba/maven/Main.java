@@ -18,6 +18,7 @@ public class Main {
 
         scanner.close();
 
-        System.out.println("PRUEBA");
+        System.out.println("PRUEBA2");
+
     }
 }
